@@ -3,6 +3,7 @@
 	<head>
 		<link type="text/css"; rel="stylesheet"; href="exstylesheet.css"/>
 		<title>Exotic Lifestyle</title>
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	</head>
 <!--menubar-->
 	<body>
@@ -33,9 +34,23 @@
 			<h4>If you apply ideas that come into your mind and you put it all together,</h4>
 			<h4>it could look like this!</h4>
 
+			<div class="carousel">
+				<div><img src="Chrysanthemum.jpg"></div>
+				<div><img src="Hydrangeas.jpg"></div>
+				<div><img src="jellyfish.jpg"></div>
+			</div>
+
 			<img src="th.jpg">
 
 			<h4>This house is not really modern, but I can't say anything because it costs more than my house.</h4>
         </main>
+        <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+        	$('.carousel').slick();
+        )};
+        </script>
 	</body>
 </html>
