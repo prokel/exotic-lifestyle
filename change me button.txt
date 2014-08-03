@@ -1,0 +1,13 @@
+<!--"Change Me" button-->
+		<script type="text/javascript">
+		var button = document.getElementById("changeme");
+		button.addEventListener('click', changeWord);
+		
+		function changeWord(e) {
+			e.preventDefault();
+			var word = document.getElementById("word");
+			word.innerHTML = 'Monster';
+		}
+		</script>
+
+			<p><a href="#" id="changeme">Change Me</a></p>
