@@ -1,0 +1,15 @@
+#mario {
+	width: 240px;
+	height: 320px;
+}
+
+.pixel {
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
+.blank {
+	background: red;
+}
